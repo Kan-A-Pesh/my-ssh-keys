@@ -1,0 +1,62 @@
+{
+    // Editor layout
+    "workbench.activityBar.location": "top",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all",
+    "window.commandCenter": false,
+
+    // Fonts
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'liga'",
+    "editor.fontFamily": "'Monaspace Neon Frozen', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontWeight": "400",
+
+    // Themes
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.productIconTheme": "icons-carbon",
+    "workbench.colorTheme": "Bearded Theme Vivid Light",
+    "workbench.preferredDarkColorTheme": "Bearded Theme feat. Gold D Raynh",
+    "workbench.preferredLightColorTheme": "Bearded Theme Vivid Light",
+
+    // Custom styles
+    "custom-ui-style.electron": {
+        "frame": false
+    },
+    "custom-ui-style.stylesheet": {
+        "div[aria-label='Your Void installation appears to be corrupt. Please reinstall., notification']": {
+            "display": "none"
+        },
+        ".monaco-action-bar .menu-entry": {
+            "display": "none"
+        },
+        ".titlebar-right>.action-toolbar-container>.monaco-toolbar>.monaco-action-bar": {
+            "position": "fixed",
+            "bottom": "24px",
+            "right": "4px",
+            "height": "auto",
+            "padding": "2px",
+            "background": "#0005",
+            "border-radius": "4px",
+            "opacity": "0.2",
+            "transition": "0.2s"
+        },
+        ".titlebar-right>.action-toolbar-container>.monaco-toolbar>.monaco-action-bar:hover": {
+            "opacity": "1"
+        },
+        ".title-label": {
+            "opacity": "0.1"
+        },
+        ".line-numbers": {
+            "opacity": "0.2"
+        },
+        ".line-numbers.active-line-number": {
+            "opacity": "0.5"
+        },
+        ".quick-input-widget": {
+            "top": "50% !important",
+            "transform": "translateY(-50%) !important"
+        }
+    },
+}
