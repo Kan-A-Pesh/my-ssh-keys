@@ -25,7 +25,7 @@
         "frame": false
     },
     "custom-ui-style.stylesheet": {
-        "div[aria-label='Your Void installation appears to be corrupt. Please reinstall., notification']": {
+        "div[aria-label~='installation appears to be corrupt']": {
             "display": "none"
         },
         ".monaco-action-bar .menu-entry": {
